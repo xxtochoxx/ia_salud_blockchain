@@ -1,0 +1,17 @@
+# Variables de entorno con credenciales
+backend/.env
+ai-engine/.env
+
+# Dependencias (se instalan con npm install / pip install)
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+ai-engine/venv/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
